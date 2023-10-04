@@ -1,0 +1,12 @@
+1) Tại sao lại sử dụng constructor?, không dùng constructor được không?
+- Để tái sử dụng, khởi tạo một thuộc tính dùng chung, khi cần những thuộc tính riêng cho từng đối tượng sẽ không ảnh hưởng đến các đối tượng khác, dễ dàng thêm thuộc tính chung cho hàng loạt các đối tượng
+2) Object prototype là gì? Sử dụng nó khi nào?
+- Prototype là cơ chế mà các object trong javascript kế thừa các tính năng từ một object khác.
+- Dùng khi Thêm một thuộc tính và phương thức bên ngoài constructor.
+tại sao lại sử dụng json?
+3) Từ this trong constructor có ý nghĩa gì?
+4) Có bao nhiêu cách lấy Accessing Object Properties: objectName.propertyName và objectName["propertyName"]
+5) Có bao nhiêu cách lấy Accessing Object Methods: objectName.methodName()
+5) Dulicate object: khi duplicate lên thì thay đổi trong duplicate hay object nó tác động với nhau như thế nào?
+6) @ thuộc tính có key giống nhau thì chuyện gì sẽ xảy ra? -> Thuộc tính sau sẽ đè lên thuộc tính trước
+7) Tại sao không dùng import được mà phải dùng required
